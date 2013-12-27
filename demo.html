@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StudioJS Demo</title>
+  <link href="studiojs-master/css/reset.css" rel="Stylesheet" type="text/css" />
+  <link href="studiojs-master/css/ui-darkness/jquery-ui-1.9.1.custom.css" type="text/css" rel="Stylesheet" />
+  <link href="studiojs-master/css/jquery.Jcrop.css" rel="stylesheet" type="text/css" />
+  <link href="studiojs-master/css/jquery.imagestudio.css" rel="stylesheet" type="text/css" />
+  <style type="text/css" media="screen">
+
+  </style>
+  </head>
+  <body>
+
+    <div class="studio1" ></div>
+
+    <script src="studiojs-master/libs/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="studiojs-master/libs/underscore-min.js" type="text/javascript"></script>
+    <script src="studiojs-master/libs/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
+    <script src="studiojs-master/ImageResizer.js" type="text/javascript"></script>
+    <!-- jcrop is optional if you are not using the `crop` pane -->
+    <script src="studiojs-master/jquery.Jcrop.js" type="text/javascript"></script>
+    <script src="studiojs-master/jquery.jcrop.preview.js" type="text/javascript"></script>
+    <!-- overdraw.js is optional if you are not using the 'remove objects' pane -->
+    <script src="studiojs-master/jquery.overdraw.js" type="text/javascript"></script>
+    <script src="studiojs-master/jquery.imagestudio.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('div.studio1').ImageStudio({ url: 'http://z.zr.io/rw/pluginexamples/example-019.jpg?width=900' });
+      });
+    </script>
+
+</body>
+</html>
