@@ -1,0 +1,2 @@
+imageresizer-studiojs-demo
+==========================
